@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 const path = require('path')
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 3000;
 
 app.use("/static", express.static(path.join(__dirname, 'public')))
 
@@ -13,5 +13,5 @@ app.get("/", function(req, res) {
 
 
 app.listen(port, function() {
-    console.log("Port started on port 5000");
+    console.log("Port started on port 3000");
 })
