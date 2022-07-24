@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#logo {
+  height: 170px;
+  width: 450px;
+}
+
+img {
+  position: relative;
+  top: -120px;
+}
+
+.linebreak {
+  background-color: rgba(119, 117, 117, 0.144);
+  height: 1px;
+  width: 100vw;
+}
+/*# sourceMappingURL=newstyles.css.map */

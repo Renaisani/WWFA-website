@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,IAAI,CAAC;EACD,MAAM,EAAE,CAAC;CACZ;;ACFD,AAAA,KAAK,CAAC;EACF,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;CAC1B;;AAED,AAAA,KAAK,CAAC;EACF,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,KAAK;CACf;;AAED,AAAA,GAAG,CAAC;EACA,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,MAAM;CACd;;AAED,AAAA,UAAU,CAAC;EACP,gBAAgB,EAAE,0BAA0B;EAC5C,MAAM,EAAE,GAAG;EACX,KAAK,EAAE,KAAK;CACf",
+    "sources": [
+        "newstyles.scss",
+        "_globals.scss",
+        "_homepagestyle.scss"
+    ],
+    "names": [],
+    "file": "newstyles.css"
+}
