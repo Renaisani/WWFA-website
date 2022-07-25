@@ -1,4 +1,5 @@
 .flex {
+    margin-bottom: 10px;
     display: flex;
     justify-content: center;
 }
@@ -18,3 +19,63 @@ img {
     height: 1px;
     width: 100vw;
 }
+
+.navbar {
+    height: 100px;
+}
+
+.navbar-nav {
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: rgba($color: #282828, $alpha: 1.0);
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.donate-btn {
+    position: relative;
+    left: 5%;
+}
+
+.aboveFold {
+    background-image: url("../assets/landing-page-photo.jpg");
+    background-size: cover;
+    background-position: left center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 700px;
+
+    .img-fade {
+        background-color: rgba(54, 54, 54, 0.46);
+        height: inherit;
+        width: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h2 {
+            font-family: 'Roboto', sans-serif;
+            color: azure;
+            font-weight: 500;
+            font-size: 4rem;
+            text-align: center;
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+    }
+    
+    
+}
+
