@@ -9,7 +9,7 @@
     width: 450px;
 }
 
-img {
+.logo-img {
     position: relative;
     top: -120px;   
 }
@@ -26,7 +26,7 @@ img {
 
 .navbar-nav {
     list-style: none;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding: 0;
     margin: 0;
     height: inherit;
@@ -66,9 +66,9 @@ img {
         align-items: center;
 
         h2 {
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Montserrat', sans-serif;
             color: azure;
-            font-weight: 500;
+            font-weight: 600;
             font-size: 4rem;
             text-align: center;
             padding-left: 100px;
@@ -79,3 +79,92 @@ img {
     
 }
 
+.atAGlance-grid {
+    display: flex;
+    height: 900px;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.atAGlance-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 90px;
+    height: 700px;
+    width: 90vw;
+}
+
+.atAGlance-img {
+    width: 550px;
+    border-radius: 12px;
+}
+
+.glanceText {
+    font-family: 'Montserrat', sans-serif;
+    h2 {
+        font-weight: 700;
+        font-size: 2.5rem;
+        color: rgb(129, 129, 129);
+        max-width: 510px;
+    }
+    p {
+        line-height: 1.5rem;
+        font-weight: 700;
+        max-width: 612px;
+    }
+    h3 {
+        font-weight: 300;
+        font-size: 1.8rem;
+        color: rgb(245, 85, 70);
+    }
+    .getInvolved {
+        margin-top: 65px;
+        width: 170px;
+        height: 48px;
+        background-color: rgb(245, 85, 70);
+        transition: all 200ms linear;
+        color: azure;
+        border-style: none;
+        border-radius: 5px;
+        font-size: 0.8rem;
+        cursor: pointer;
+        letter-spacing: 2px;
+        font-weight: 300;
+    }
+    .getInvolved:hover {
+        background-color: rgb(16, 1, 0);
+    }
+}
+
+.activitiesHead {
+    height: 384px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(253, 234, 232);
+    div {
+        height: 184px;
+        width: 1240px;
+        background-color: rgb(247, 242, 242);
+        border-radius: 15px;
+        box-shadow: 1px 1px 20px rgba(85, 85, 85, 0.159);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Montserrat', sans-serif;
+        h2 {
+            font-size: 2.5rem;
+            margin-top: 7px;
+            margin-bottom: 20px;
+        }
+        p {
+            margin-top: 0;
+            margin-bottom: 16px;
+            font-size: 1.25rem;
+            color: rgb(245, 85, 70);
+        }
+    }
+}
