@@ -1,3 +1,5 @@
+
+//////// Header Styles ////////////
 .flex {
     margin-bottom: 10px;
     display: flex;
@@ -14,12 +16,14 @@
     top: -120px;   
 }
 
+//////// Styled Linebreak //////////
 .linebreak {
     background-color: rgba(119, 117, 117, 0.144);
     height: 1px;
     width: 100vw;
 }
 
+///////// Navbar Styles ////////////
 .navbar {
     height: 100px;
 }
@@ -49,6 +53,8 @@
     left: 5%;
 }
 
+
+////////// Above the fold section //////////
 .aboveFold {
     background-image: url("../assets/landing-page-photo.jpg");
     background-size: cover;
@@ -79,6 +85,9 @@
     
 }
 
+
+
+/////////// At A Glance Section ////////////
 .atAGlance-grid {
     display: flex;
     height: 900px;
@@ -137,6 +146,8 @@
     }
 }
 
+
+////////// Activities Header Section ///////////
 .activitiesHead {
     height: 384px;
     width: 100vw;
