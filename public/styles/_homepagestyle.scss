@@ -35,8 +35,6 @@
     margin: 0;
     height: inherit;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .nav-link {
@@ -178,4 +176,112 @@
             color: rgb(245, 85, 70);
         }
     }
+}
+
+
+///////// Activities Body Section /////////////
+.activitiesBody {
+    height: 909px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.activityCard-box {
+    height: 709px;
+    width: 1260px;
+    display: flex;
+    gap: 10px;
+}
+
+.activityCard {
+    font-family: 'Montserrat', sans-serif;
+    img {
+        width: 380px;
+        height: 341px;
+        object-fit: cover;
+        box-shadow: 1px 1px 20px rgba(85, 85, 85, 0.516);
+    }
+    h2 {
+        font-weight: 300;
+        color: rgb(245, 85, 70);
+        font-size: 2.3rem;
+    }
+    p {
+        line-height: 1.5rem;
+        font-weight: 600;
+    }
+}
+
+
+
+///////// Contact Section ///////////
+.contact {
+    height: 195px;
+    width: 100vw;
+    background-color: rgb(245, 240, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    h2 {
+        font-weight: 300;
+        font-size: 3rem;
+        margin-bottom: 0;
+    }
+    p {
+        font-weight: 600;
+        font-size: 1.2rem;
+        margin-top: 15px;
+    }
+}
+
+
+////////// Footer Image ////////////
+.footerImage {
+    height: 370px;
+    width: 100vw;
+    background-image: url("../assets/footer-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top -320px left;
+}
+
+
+/////////// Footer Section ///////////
+footer {
+    height: 200px;
+    width: 100vw;
+    background-color: rgb(245, 240, 238);
+}
+
+.footerNav {
+    height: 120px;
+    width: 100vw;
+}
+
+.footerNav-box {
+    justify-content: start;
+    align-items: center;
+    margin-left: 90px;
+}
+
+
+//////// Copyright Section ///////////
+.copyright {
+    height: 79px;
+    width: 100vw;
+    display: flex;
+    p {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        font-size: 0.7rem;
+    }
+}
+
+.flex-c {
+    justify-content: center;
+    align-items: center;
 }
